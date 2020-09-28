@@ -1,0 +1,16 @@
+$scoopInstalled = Get-Command scoop
+If (!$scoopInstalled) {
+    iwr -useb get.scoop.sh | iex
+}
+
+scoop install 7zip git openssh --global
+scoop bucket add private https://github.com/JorundMartinsen/scoop-buckets/tree/master/main
+
+scoop install vb-cable --global
+scoop install powertoys --global
+scoop install rainmeter --global
+scoop install obs --global
+scoop install epic-games --global
+scoop install discord --global
+scoop install uplay --global
+scoop install voicemeeter-potato --global
