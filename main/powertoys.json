@@ -1,1 +1,11 @@
-
+{
+  "version": "0.21.1",
+  "homepage": "https://github.com/microsoft/PowerToys",
+  "license": "unknown",
+  "architecture": [
+    "64": {
+      "url": "https://github.com/microsoft/PowerToys/releases/download/v0.21.1/PowerToysSetup-0.21.1-x64.msi",
+      "hash": "EF63A70FC1C4B718410D3129D1691AB3814B4F7D1CEA402E6507B0133CA2F09C"
+  }
+    ]
+}
