@@ -1,1 +1,7 @@
-
+{
+  "version": "3.0.1.3",
+  "homepage": "https://discord.com/api/download?platform=win",
+  "license": "unknown",
+  "url": "https://discord.com/api/download?platform=win",
+  "hash": "B6F969B8A2966262912D9EA00A8026059C61568079E2C319BD5F597588650C65",
+}
