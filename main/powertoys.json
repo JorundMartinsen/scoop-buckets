@@ -1,7 +1,7 @@
 {
   "version": "0.21.1",
   "homepage": "https://github.com/microsoft/PowerToys",
-  "license": "unknown",
+  "license": "MIT",
   "architecture": [
     "64": {
       "url": "https://github.com/microsoft/PowerToys/releases/download/v0.21.1/PowerToysSetup-0.21.1-x64.msi",
