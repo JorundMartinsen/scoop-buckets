@@ -3,5 +3,27 @@
   "homepage": "https://vb-audio.com/Voicemeeter/potato",
   "license": "donationware",
   "url": "https://download.vb-audio.com/Download_CABLE/Voicemeeter8Setup.exe",
-  "hash": "3BFF00032AA45D1C321DE2EE1BFFF0C86EC1C6A86F99044DA4FFBA68F05D401B"
+  "hash": "3BFF00032AA45D1C321DE2EE1BFFF0C86EC1C6A86F99044DA4FFBA68F05D401B",
+  "installer": {
+        "args": [
+            "/VERYSILENT",
+            "/NORESTART",
+            "/DIR=\"$dir\""
+        ]
+    },
+    "uninstaller": {
+        "file": "uninst\\unins000.exe",
+        "args": [
+            "/VERYSILENT"
+        ]
+     },
+    "bin": [
+        [
+            "bin\\VoicemeeterProSetup.exe",
+            "voicemeeterpro.exe"
+        ]
+    ],
+    "shortcuts": [
+        [ "voicemeeterpro.exe", "voicemeeter" ]
+    ]
 }
