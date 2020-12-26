@@ -25,7 +25,7 @@ If (!$scoopInstalled) {
 
 scoop install 7zip git openssh --global
 scoop bucket add extras
-scoop bucket add private https://github.com/JorundMartinsen/scoop-buckets/tree/master/main
+scoop bucket add private https://github.com/JorundMartinsen/scoop-buckets.git
 
 scoop install vb-cable --global
 scoop install powertoys --global
