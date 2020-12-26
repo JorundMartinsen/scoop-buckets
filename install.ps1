@@ -41,3 +41,4 @@ scoop install nodejs --global
 scoop install notepadplusplus --global
 scoop install arduino --global
 scoop install pwsh --global
+scoop install nircmd --global
